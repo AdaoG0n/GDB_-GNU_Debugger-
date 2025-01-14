@@ -6,6 +6,16 @@
 <img width="200"  src="https://github.com/AdaoG0n/GDB_-GNU_Debugger-/blob/main/GDB_Archer_Fish_by_Andreas_Arnez.svg.png">
 </div>
 
+<p align="center">
+  <a href="#1-linux-debianubuntu-e-derivados">Linux (Debian/Ubuntu e derivados)</a>  •  
+  <a href="#2-linux-fedorarhelcentos">Linux (Fedora/RHEL/CentOS)</a>  •  
+  <a href="#3-linux-arch-linux">Linux (Arch Linux)</a>  •  
+  <a href="#4-macos">macOS</a>  •  
+  <a href="#5-windows">Windows</a>  •  
+  <a href="#6-verificação-da-instalação">Verificação da Instalação</a>
+</p
+
+
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
 
