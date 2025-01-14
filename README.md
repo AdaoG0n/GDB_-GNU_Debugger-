@@ -6,6 +6,7 @@
 <img width="200"  src="https://github.com/AdaoG0n/GDB_-GNU_Debugger-/blob/main/GDB_Archer_Fish_by_Andreas_Arnez.svg.png">
 </div>
 <p align="center">
+  <a href="https://github.com/AdaoG0n/GDB_-GNU_Debugger-/blob/main/Instalacao.md"> Instalação</a> • 
   <a href="#1-compilação-com-gdb">Compilação com GDB</a>  •  
   <a href="#2-iniciar-o-gdb">Iniciar o GDB</a>  •  
   <a href="#3-inserir-argumentos-de-linha-de-comando">Argumentos</a>  •  
@@ -20,10 +21,17 @@
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 1. Compilação com GDB
+## Como instalar GDB
 </div>
+⚠️ Siga o seguinte <a href="https://github.com/AdaoG0n/GDB_-GNU_Debugger-/blob/main/Instalacao.md">GUIA</a> para instalação nos diferentes tipos de de sistemas operacionais.
+</br>
 
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
+<div align="center"> 
+  
+## 1. Compilação com GDB
+</div>
+
 Para usar o **GDB**, é necessário compilar o programa com informações de depuração. Usar a flag `-g` ao compilar:
 
 ```bash
@@ -36,10 +44,9 @@ gcc -g -o programa programa.c
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 2. Iniciar o GDB
+## 2. Iniciar o GDB
 </div>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 Executar o **GDB** com o programa compilado:
 
 ```bash
@@ -53,10 +60,9 @@ gdb -tui ./programa
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 3. Inserir Argumentos de Linha de Comando
+## 3. Inserir Argumentos de Linha de Comando
 </div>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 Caso o main use argumentos (argc e argv), é preciso definir os argumentos antes de rodar o programa no GDB. Usar o comando set args:
 ```bash
 set args "abcd" "abdc"
@@ -67,10 +73,9 @@ set args "abcd" "abdc"
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 4. Colocar Breakpoints
+## 4. Colocar Breakpoints
 </div>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 Breakpoints permitem que se pause a execução em linhas específicas do código para inspecionar variáveis e o fluxo do programa. 
 Para definir um breakpoint no início da função main, usar:
 ```bash
@@ -87,10 +92,9 @@ break linha
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 5. Rodar o Programa
+## 5. Rodar o Programa
 </div>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 Após a configuração dos breakpoints, iniciar a execução do programa com:
 ```bash
 run
@@ -101,10 +105,9 @@ run
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 6. Inspecionar Variáveis
+## 6. Inspecionar Variáveis
 </div>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 Para verificar os valores das variáveis no momento da execução, usar o comando print:
 Exibir o valor de uma variável:
 ```bash
@@ -124,10 +127,9 @@ print s1
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 7. Continuar a Execução
+## 7. Continuar a Execução
 </div>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 Depois de inspecionar variáveis, você pode continuar a execução do programa:
 
 Continuar até o próximo breakpoint:
@@ -147,10 +149,9 @@ next
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 8. Inspecionar Fluxo no Laço
+## 8. Inspecionar Fluxo no Laço
 </div>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 No código, pode ser necessário inspecionar o comportamento dentro dos laços. Colocar um breakpoint dentro dos laços, por exemplo, onde `if (s1[i] == s2[k])` ocorre:
 
 ```bash
@@ -167,10 +168,9 @@ print s2[k]
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### 9. Finalizar a Depuração
+## 9. Finalizar a Depuração
 </div>
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 Para sair do GDB, usar o comando:
 ```bash
 quit
@@ -178,9 +178,8 @@ quit
 ![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 <div align="center"> 
   
-### Resumo de Comandos Úteis
+## Resumo de Comandos Úteis
 
-![](https://github.com/AdaoG0n/AdaoG0n/blob/main/assests/bar.png)
 
 |Comando             | Descrição                                       |
 | ------------------ | ----------------------------------------------- |
