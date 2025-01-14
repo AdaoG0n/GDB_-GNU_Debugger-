@@ -2,6 +2,9 @@
 
 # <a href="#" style="pointer-events: none;"><img src="https://img.shields.io/github/last-commit/AdaoG0n/GDB_-GNU_Debugger-?style=flat-square&color=%2312bab9" /> </a>
 
+<div align="center"> 
+<img width="200"  src="https://github.com/AdaoG0n/GDB_-GNU_Debugger-/blob/main/GDB_Archer_Fish_by_Andreas_Arnez.svg.png">
+</div>
 <p align="center">
   <a href="#1-compilação-com-gdb">Compilação com GDB</a>  •  
   <a href="#2-iniciar-o-gdb">Iniciar o GDB</a>  •  
